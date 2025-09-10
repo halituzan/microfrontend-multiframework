@@ -1,0 +1,108 @@
+.react-root {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f4f6f8;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.react-center {
+  text-align: center;
+}
+
+.react-logo {
+  width: 120px;
+  height: 120px;
+  animation: spinLogo 10s linear infinite;
+  margin-bottom: 1rem;
+}
+
+.react-title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.react-user-panel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.login-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.login-button:hover {
+  background-color: #4ec8e9;
+}
+
+.user-label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+}
+
+.user-role {
+  font-size: 0.85rem;
+  color: #666;
+  display: block;
+  margin-top: 4px;
+}
+
+.react-user-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.user-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  min-width: 220px;
+  gap: 1rem;
+}
+
+.user-icon {
+  font-size: 2.5rem;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+}
+
+.user-role {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 2px;
+}
+
+@keyframes spinLogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

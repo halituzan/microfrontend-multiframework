@@ -1,0 +1,116 @@
+.host-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background-color: #f4f6f8;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.host-user-panel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.host-user-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  gap: 1rem;
+  width: 220px;
+}
+
+.host-user-icon {
+  font-size: 2.5rem;
+}
+
+.host-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.host-user-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+}
+
+.host-user-role {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 2px;
+  text-align: left;
+}
+
+.host-center {
+  max-width: 600px;
+}
+
+.host-logo {
+  margin-bottom: 1.5rem;
+}
+
+.host-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.host-desc {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.host-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.host-button:hover {
+  background-color: #4338ca;
+}
+
+.host-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.host-icon {
+  transition: transform 0.3s ease;
+}
+
+.host-icon:hover {
+  transform: scale(1.1);
+}
+
+.react-icon {
+  animation: spinLogo 10s linear infinite;
+}
+
+@keyframes spinLogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

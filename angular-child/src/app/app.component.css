@@ -1,0 +1,77 @@
+.angular-app-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background-color: #f4f6f8;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.angular-logo {
+  margin-bottom: 1.5rem;
+}
+
+.angular-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+.angular-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #dd0031;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.angular-button:hover {
+  background-color: #b8002b;
+}
+
+.angular-user-panel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 260px;
+}
+
+.angular-user-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  gap: 1rem;
+}
+
+.angular-user-icon {
+  font-size: 2.5rem;
+}
+
+.angular-user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.angular-user-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+}
+
+.angular-user-role {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 2px;
+  text-align: left;
+}
