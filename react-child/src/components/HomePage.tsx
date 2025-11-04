@@ -39,20 +39,7 @@ const HomePage = () => {
   };
 
   const navigateToDetail = () => {
-    if (user) {
-      const params = new URLSearchParams({
-        name: user.name,
-        role: user.role,
-      });
-      navigate(`detail?${params.toString()}`);
-    } else {
-      // Navigate with default values if no user is logged in
-      const params = new URLSearchParams({
-        name: "Guest",
-        role: "visitor",
-      });
-      navigate(`detail?${params.toString()}`);
-    }
+    navigate(`detail`);
   };
 
   return (
